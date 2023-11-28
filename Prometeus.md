@@ -1,3 +1,7 @@
+## Deploy
+
+Github repo [https://github.com/Mazurovsasha/16.Monitoring/tree/master/prometheus]
+
 ## Rules
 
 Указываются в ConfigMap
@@ -25,3 +29,9 @@ data:
           summary: High Memory Usage
 ```
 
+## test filter examples:
+
+```
+rate(container_cpu_usage_seconds_total{pod=~"jenk.*"}[1m])
+container_memory_working_set_bytes{container="jenkins"}
+```

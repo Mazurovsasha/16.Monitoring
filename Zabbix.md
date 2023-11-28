@@ -22,3 +22,4 @@ SHOW GRANTS FOR 'zabbix';
 kubectl create namespace monitoring
 ```
 
+Github repo [https://github.com/Mazurovsasha/16.Monitoring/tree/master/zabbix]
