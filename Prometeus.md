@@ -2,6 +2,10 @@
 
 Github repo [https://github.com/Mazurovsasha/16.Monitoring/tree/master/prometheus]
 
+### KSM metrik install
+
+Github repo [https://github.com/Mazurovsasha/16.Monitoring/tree/master/ksm]
+
 ## Rules
 
 Указываются в ConfigMap
