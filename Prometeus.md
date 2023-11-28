@@ -6,6 +6,10 @@ Github repo [https://github.com/Mazurovsasha/16.Monitoring/tree/master/prometheu
 
 Github repo [https://github.com/Mazurovsasha/16.Monitoring/tree/master/ksm]
 
+## node-exporter install
+
+Github repo [https://github.com/Mazurovsasha/16.Monitoring/tree/master/node-exporter]
+
 ## Rules
 
 Указываются в ConfigMap

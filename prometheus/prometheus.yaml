@@ -53,6 +53,13 @@ data:
           severity: slack
         annotations:
           summary: High Memory Usage
+      - alert: CPU Overload
+        expr: sum(rate(container_cpu_usage_seconds_total{}[1m])) by (pod)>0.5
+        for: 1m
+        labels:
+          severity: slack
+        annotations:
+          summary: CPU Overload    
   prometheus.yml: |-
     global:
       scrape_interval: 5s
