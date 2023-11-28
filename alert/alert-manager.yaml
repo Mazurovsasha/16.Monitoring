@@ -23,9 +23,9 @@ data:
     - name: 'slack-notifications'
       slack_configs:
       - api_url:
-         secretKeyRef:
-          name: slack-secret
-          key: api_url
+          secretKeyRef:
+            name: slack-secret
+            key: api_url
         channel: '#16_monitor'
         send_resolved: true
         title: |-
